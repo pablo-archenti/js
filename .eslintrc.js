@@ -17,6 +17,9 @@ module.exports = {
   },
   'rules': {
     'indent': ["error", 4],
-    'require-jsdoc': 0
+    'require-jsdoc': 0,
+    'valid-jsdoc': 0,
+    'no-multi-str': 0,
+    'max-len': [2, 150]
   },
 };
