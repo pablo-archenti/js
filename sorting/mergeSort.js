@@ -26,6 +26,7 @@ function merge(arr1, arr2) {
     return newArr;
 }
 
+// Time complexity O(NlogN)
 function mergeSort(arr) {
     if (arr.length <= 1) return arr;
 
